@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#include "day1.c"
+#include "src/day1.c"
 
 int main() {
-  test();
+  day1();
 
   return 0;
 }
