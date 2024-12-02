@@ -1,9 +1,23 @@
 #include <stdio.h>
 
 #include "src/day1.c"
+#include "src/day2.c"
+
+void selectDay(int);
 
 int main() {
-  day1();
-
+  int day = 2;
+  selectDay(day);
   return 0;
+}
+
+void selectDay(int day) {
+  switch (day) {
+    case 1:
+      day1();
+      break;
+    case 2:
+      day2();
+      break;
+  }
 }
