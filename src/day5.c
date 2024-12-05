@@ -74,6 +74,9 @@ void day5() {
         for (int j = 0; j < 40; j++) {
             numList[j] = 0;
         }
+        for (int j = 0; j < 80; j++) {
+            line[j] = 0;
+        }
     } 
     fclose(fptr);
 
