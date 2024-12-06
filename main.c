@@ -3,11 +3,12 @@
 #include "src/day3.c"
 #include "src/day4.c"
 #include "src/day5.c"
+#include "src/day6.c"
 
 void selectDay(int);
 
 int main() {
-    int day = 5;
+    int day = 6;
     selectDay(day);
     return 0;
 }
@@ -28,6 +29,9 @@ void selectDay(int day) {
         break;
     case 5:
         day5();
+        break;
+    case 6:
+        day6();
         break;
     }
 }

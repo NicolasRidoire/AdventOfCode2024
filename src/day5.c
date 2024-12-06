@@ -81,5 +81,5 @@ void day5() {
     fclose(fptr);
 
     printf("first star : %d\n", result1);
-    printf("second star : %d", result2);
+    printf("second star : %d\n", result2);
 }

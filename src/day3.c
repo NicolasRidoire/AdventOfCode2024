@@ -76,5 +76,5 @@ void day3() {
     }
   }
 
-  printf("second star : %d", result);
+  printf("second star : %d\n", result);
 }
